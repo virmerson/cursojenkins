@@ -13,7 +13,7 @@ public class TestCalculadora {
     public void testSomarVariosNumeros (){
         Calculadora c = new Calculadora();
         int soma = c.calcularSoma(5, 5, 5);
-        Assert.assertEquals(soma, 20);
+        Assert.assertEquals(soma, 15);
 
     }
 }
