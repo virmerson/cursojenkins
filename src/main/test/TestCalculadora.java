@@ -8,7 +8,7 @@ import org.junit.Test;
 public class TestCalculadora {
 
     @Test
-    public void testSomar (){
+    public void testSomarVariosNumeros (){
         Calculadora c = new Calculadora();
         int soma = c.calcularSoma(5, 5, 5);
         Assert.assertEquals(soma, 20);
